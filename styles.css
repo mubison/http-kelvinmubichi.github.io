@@ -419,3 +419,17 @@ footer a:hover {
   color: gold; /* Change to your desired color */
   transform: scale(1.1);
 }
+/* Apply contrast for visibility */
+.text-visible {
+  color: #fff; /* White text for contrast */
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow for better contrast */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hover effect for text */
+.text-visible:hover {
+  color: gold; /* Change color on hover */
+  transform: scale(1.1);
+}
