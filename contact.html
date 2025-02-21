@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Kelvin Mubichi</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Kelvin Mubichi</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>I'd love to hear from you!</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact-form">
+    <div class="container">
+      <h3>Get in Touch</h3>
+      <!-- Replace the form action with your actual Formspree endpoint if you set one up -->
+      <form action="https://formspree.io/f/yourFormID" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required/>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required/>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p>You can also email me directly at: <a href="mailto:kelvinmarshall342@gmail.com">kelvinmarshall342@gmail.com</a></p>
+      <p>Location: Nairobi, Kenya</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kelvin Mubichi. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
