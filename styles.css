@@ -436,3 +436,23 @@ footer a:hover {
 h1, .name {
     color: black;
 }
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;  /* Optional background color */
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+h1.name {
+  color: black;
+  font-size: 36px;  /* Adjust size as needed */
+  font-weight: bold;
+}
